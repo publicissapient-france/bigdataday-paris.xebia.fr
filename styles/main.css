@@ -1,0 +1,268 @@
+
+body {
+	padding-top: 0px !important;
+	font: 20px 'UbuntuRegular',Arial,sans-serif;
+    color:#6d626b;
+}
+
+body header {
+	background: url(../img/header.jpg) 0px 0px no-repeat;
+	height: 165px;
+	width: 100%;
+	position: relative;
+}
+
+.container {
+	position: relative;
+  width: 900px;
+}
+
+body header .legend{
+    font: 22px 'Ubuntu',Arial,sans-serif;
+    letter-spacing:5px;
+	width: 55%;
+	position: absolute;
+	right:   0px;
+	bottom: 0px;
+	background-color: #b4ec95;
+	color: gray;
+    opacity: 0.5;
+	text-transform: uppercase;
+	padding: 10px 0 10px 15px;
+}
+
+body header .packshot{
+	background: url(../img/big-data.png) 0px 0px no-repeat;
+	height: 400px;
+	width: 270px;
+	right: 0px;
+	top: 25px;
+	position: absolute;
+}
+
+.intro {
+	position: relative;
+}
+
+.intro .text {
+	height: 60px;
+	width: 390px;
+	font: 24px 'Ubuntu',Arial,sans-serif;
+  margin: 20px 0px 20px 110px;
+  font-style: bold;
+  text-align: center;
+}
+
+.row {
+  position: relative;
+}
+
+.timer-zone {
+  position: absolute;
+  width: 320px;
+  right: 0px;
+  top: 20px;
+  text-transform: uppercase;
+  font: 13px 'Ubuntu',Arial,sans-serif;  
+}
+
+.timer-zone h2 {
+    font: 13px 'Ubuntu',Arial,sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #6a205b;
+    font-weight: bold;
+}
+
+.issue {
+  padding: 15px 0px;
+  font-size: 16px;
+}
+
+.issue p {
+  padding: 0px 5px;
+
+}
+
+.issue-header {
+}
+
+.issue-header h2 {
+  font: 27px 'Ubuntu',Arial,sans-serif;
+  background: url('../img/trust-bg.png');
+	margin: 0px;
+	background-color: rgba(0,0,0,0.8);
+	color: gray;
+  padding: 0px 15px 0 30px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.issue-header hr {
+	margin: 0px;
+	height: 7px;
+	background-color: #6a205f;
+	border: 0px;
+}
+
+.issue h3 {
+  font: 24px 'Ubuntu',Arial,sans-serif;
+	background-color: #6a205f;
+	color: white;
+	padding: 10px 0px 8px 20px;
+  margin: 0;
+	text-transform: uppercase;
+	width: 290px;
+}
+.issue h4 {
+  float: right;
+  font: 18px 'Ubuntu',Arial,sans-serif;
+  letter-spacing:5px;
+  width: 40%;
+  background-color: #b4ec95;
+  opacity: 0.6;
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: none;
+  margin: auto;
+}
+.issue h4 a {
+    text-decoration: none;
+    color: #329641;
+ }    
+
+ .issue h5 {
+  font: 20px 'Ubuntu',Arial,sans-serif;
+  padding: 15px 0px 3px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 290px;
+}  
+
+li.list1 {list-style: square outside; color:#329641; }
+.blacktext {color:#6d626b; font: 16px 'Ubuntu'; }
+
+.form-container input{
+    display: inline-block;
+    font: 14px 'Ubuntu',Arial,sans-serif;
+    border:solid 1px #aacfe4;
+    width:180px;
+    background-color: #eee;
+    border:solid 1px #fff;
+    padding: 5px 2px;
+    margin: 10px 10px 10px 0px;
+}
+
+.form-container button{
+    display: inline-block;
+    font: 15px 'Ubuntu',Arial,sans-serif;
+    padding:8px 2px;
+    border:solid 1px #fff;
+    color: #fff;
+    width:100px;
+    background-color: rgb(0,187,234);
+    margin-left: 40px;
+}
+.logos {
+  width: 900px;
+  background-color: #6a205f;
+  position: relative;
+  height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;   
+  padding-top: 15px;
+}
+.logos a {
+  position: absolute;
+}
+.logos .work-cloudera {
+  left: 10px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-cloudera.png') no-repeat;
+}
+.logos .work-bouygues {
+  left: 140px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-bouygues.png') no-repeat;
+}
+.logos .work-amazon {
+  margin-top: 2px;
+  left: 280px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-amazon.png') no-repeat;
+}
+.logos .work-10gen {
+  left: 400px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-10gen.png') no-repeat;
+}
+.logos .work-neotechnology {
+  right: 280px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-neotechnology.png') no-repeat;
+}
+.logos .work-datastax{
+  right: 140px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-datastax.png') no-repeat;
+}
+.logos .work-xebia {
+  right: 10px;
+  width: 100px;
+  height: 35px;
+  background: url('../img/work-xebia.png') no-repeat;
+}
+
+.social {
+  background-color: #6a205f;
+  position: relative;
+  height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;   
+  padding-top: 15px;
+}
+.social a {
+  position: absolute;
+}
+.social .work-twitter {
+  left: 90px;
+  width: 140px;
+  height: 35px;
+  background: url('../img/work-twitter.png') no-repeat;
+}
+.social .work-viadeo {
+  left: 290px;
+  width: 140px;
+  height: 35px;
+  background: url('../img/work-viadeo.png') no-repeat;
+}
+.social .work-googleplus {
+    margin-top: 2px;
+  left: 470px;
+  width: 140px;
+  height: 35px;
+  background: url('../img/work-googleplus.png') no-repeat;
+}
+.social .work-linkedin {
+  left: 660px;
+  width: 140px;
+  height: 35px;
+  background: url('../img/work-linkedin.png') no-repeat;
+}
+footer {
+  background-color: #d7d5d0;
+  height: 80px;
+}
+footer .tagline {
+  height: 80px;
+  background: url('../img/footer-tagline.png') 20px 20px no-repeat #f1f0ee;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
