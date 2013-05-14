@@ -26,7 +26,7 @@ body header .legend{
 	bottom: 0px;
 	background-color: #b4ec95;
 	color: gray;
-    opacity: 0.5;
+  opacity: 0.5;
 	text-transform: uppercase;
 	padding: 10px 0 10px 15px;
 }
@@ -77,6 +77,7 @@ body header .packshot{
 .issue {
   padding: 15px 0px;
   font-size: 16px;
+  width:900px;
 }
 
 .issue p {
@@ -85,6 +86,7 @@ body header .packshot{
 }
 
 .issue-header {
+  width:900px;
 }
 
 .issue-header h2 {
@@ -226,31 +228,32 @@ li.list1 {list-style: square outside; color:#329641; }
   margin-top: 10px;
   margin-bottom: 10px;   
   padding-top: 15px;
+      width: 900px;
 }
 .social a {
   position: absolute;
 }
 .social .work-twitter {
-  left: 90px;
+  left: 100px;
   width: 140px;
   height: 35px;
   background: url('../img/work-twitter.png') no-repeat;
 }
 .social .work-viadeo {
-  left: 290px;
+  left: 300px;
   width: 140px;
   height: 35px;
   background: url('../img/work-viadeo.png') no-repeat;
 }
 .social .work-googleplus {
     margin-top: 2px;
-  left: 470px;
+  left: 480px;
   width: 140px;
   height: 35px;
   background: url('../img/work-googleplus.png') no-repeat;
 }
 .social .work-linkedin {
-  left: 660px;
+  left: 670px;
   width: 140px;
   height: 35px;
   background: url('../img/work-linkedin.png') no-repeat;
@@ -258,9 +261,11 @@ li.list1 {list-style: square outside; color:#329641; }
 footer {
   background-color: #d7d5d0;
   height: 80px;
+  width: 900px;
 }
 footer .tagline {
   height: 80px;
+   width: 900px;
   background: url('../img/footer-tagline.png') 20px 20px no-repeat #f1f0ee;
 }
 
