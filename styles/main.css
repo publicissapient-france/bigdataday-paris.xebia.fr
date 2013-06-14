@@ -338,7 +338,7 @@ footer .tagline {
   color:#000000;
 }
 .tableprogramme td.bigdata{ background-color:#c9f1be;
-  color:#000000;
+  color:#6d626b;
 }
 .legende-bigdata{
   width:25px;
@@ -359,10 +359,10 @@ footer .tagline {
   border:1px solid #e5e5e5;
 }
 .tableprogramme td.nosql{ background-color:#e9fce4;
-  color:#000000;
+  color:#6d626b;
 }
 .tableprogramme td.hour{ background-color:#eee;
-  color:#000000;
+  color:#6d626b;
 }
 .tableprogramme tr:last-child td{
   border-width:0px 1px 0px 0px;
