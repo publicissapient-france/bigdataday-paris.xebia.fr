@@ -364,6 +364,9 @@ footer .tagline {
 .tableprogramme td.hour{ background-color:#eee;
   color:#6d626b;
 }
+.tableprogramme td.pause{ background-color:#fff;
+  color:#6d626b;
+}
 .tableprogramme tr:last-child td{
   border-width:0px 1px 0px 0px;
 }.tableprogramme tr td:last-child{
